@@ -18,11 +18,11 @@ def main():
         print("\n" + soup.title.text + "\n")
 
         mod = soup.find_all(text=["*0", "*0.25", "*0.5", "*0.75", "*1", "*1.25", "*1.5", "*1.75", "*2"])
-        type = ['NRM', 'FIR', 'WTR', 'ELE', 'GRS', 'ICE', 'FGT', 'PSN', 'GND', 'FLY', 'PSY', 'BUG', 'RCK', 'GST', 'DRG', 'DRK', 'STL', 'FAR']
+        element_type = ['NRM', 'FIR', 'WTR', 'ELE', 'GRS', 'ICE', 'FGT', 'PSN', 'GND', 'FLY', 'PSY', 'BUG', 'RCK', 'GST', 'DRG', 'DRK', 'STL', 'FAR']
 
         n = 0
         for eachmod in mod:
-            print(type[n] + " " + eachmod)
+            print(element_type[n] + " " + eachmod)
             n=n+1
 
 if __name__ == "__main__":
