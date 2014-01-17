@@ -1,1 +1,6 @@
-Search Serbii.net by generation VI pokedex for weakness / effectiveness chart by pokemon number (3 digit format)
+Search Serebii.net's national dex for fast refrence to pokemon's weakness charts.
+
+Dependencies: 
+Requests 2.2.0
+BeautifulSoup 4.3.2
+
